@@ -1,0 +1,89 @@
+body {
+  position: relative;
+  font-family: 'Gideon Roman', cursive;
+  font-family: 'Roboto', sans-serif;
+  background:
+}
+h1 {
+  font-weight: 400;
+  color: #656565;
+}
+h2 {
+  color: #656565;
+}
+header {
+  font-size: 8px;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.header-title {
+  margin-left: 1rem;
+}
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(100, 100, 100, 0.4)
+}
+.email,
+.address {
+  color: #C6C6C6;
+}
+.modal {
+  width: 375px;
+  margin: 15% auto auto;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #778;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.avatar {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.card {
+    height: 125px;
+    border: 2px solid #c5c9c6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;;
+    margin: 0 25px 25px 0;
+    transition: background-color 0.7s ease;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: #AFAFAF;
+}
+.card:hover p {
+  color: white;
+}
+.text-container {
+  padding: none;
+}
